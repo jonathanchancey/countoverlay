@@ -7,11 +7,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; CONSTANT DELCARATION
 TITLE = Encounters
+FONTNAME = Lato
 LOGFILENAME = debug.log
 COUNTFILENAME = count.txt
-FONTNAME = Lato
 
-
+;   .--.      .-'.      .--.      .--.      .--.      
+; :::::.\::::::::.\::::::::.\::::::::.\::::::::.\:::::
+; '      `--'      `.-'      `--'      `--'      `--' 
 
 FileRead, FileSelected, %COUNTFILENAME%
 Counter = 0  ; Start counter at zero
